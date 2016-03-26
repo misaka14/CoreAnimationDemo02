@@ -29,6 +29,8 @@
     repL.instanceBlueOffset -= 0.1;
     repL.instanceAlphaOffset -= 0.1;
 }
+- (IBAction)redraw {
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

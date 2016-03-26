@@ -20,6 +20,13 @@
 		B60B09991CA65E3A00F86B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60B09981CA65E3A00F86B5A /* Assets.xcassets */; };
 		B60B099C1CA65E3A00F86B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60B099A1CA65E3A00F86B5A /* LaunchScreen.storyboard */; };
 		B60B09A31CA65EA200F86B5A /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B09A21CA65EA200F86B5A /* VCView.m */; };
+		B60B09AC1CA674C300F86B5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B09AB1CA674C300F86B5A /* main.m */; };
+		B60B09AF1CA674C300F86B5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B09AE1CA674C300F86B5A /* AppDelegate.m */; };
+		B60B09B51CA674C300F86B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60B09B31CA674C300F86B5A /* Main.storyboard */; };
+		B60B09B71CA674C300F86B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60B09B61CA674C300F86B5A /* Assets.xcassets */; };
+		B60B09BA1CA674C300F86B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60B09B81CA674C300F86B5A /* LaunchScreen.storyboard */; };
+		B60B09C11CA674D500F86B5A /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B09C01CA674D500F86B5A /* VCView.m */; };
+		B60B09C41CA675A900F86B5A /* DotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B09C31CA675A900F86B5A /* DotViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +52,18 @@
 		B60B099D1CA65E3A00F86B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B60B09A11CA65EA200F86B5A /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
 		B60B09A21CA65EA200F86B5A /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
+		B60B09A81CA674C300F86B5A /* 粒子效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "粒子效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60B09AB1CA674C300F86B5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B60B09AD1CA674C300F86B5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B60B09AE1CA674C300F86B5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B60B09B41CA674C300F86B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B60B09B61CA674C300F86B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B60B09B91CA674C300F86B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B60B09BB1CA674C300F86B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60B09BF1CA674D500F86B5A /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
+		B60B09C01CA674D500F86B5A /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
+		B60B09C21CA675A900F86B5A /* DotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotViewController.h; sourceTree = "<group>"; };
+		B60B09C31CA675A900F86B5A /* DotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +81,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B60B09A51CA674C300F86B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -70,6 +96,7 @@
 			children = (
 				B60B096E1CA65E3100F86B5A /* 核心动画Demo */,
 				B60B098B1CA65E3A00F86B5A /* 倒影 */,
+				B60B09A91CA674C300F86B5A /* 粒子效果 */,
 				B60B096D1CA65E3100F86B5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +106,7 @@
 			children = (
 				B60B096C1CA65E3100F86B5A /* 核心动画Demo.app */,
 				B60B098A1CA65E3A00F86B5A /* 倒影.app */,
+				B60B09A81CA674C300F86B5A /* 粒子效果.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +161,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B60B09A91CA674C300F86B5A /* 粒子效果 */ = {
+			isa = PBXGroup;
+			children = (
+				B60B09AD1CA674C300F86B5A /* AppDelegate.h */,
+				B60B09AE1CA674C300F86B5A /* AppDelegate.m */,
+				B60B09C21CA675A900F86B5A /* DotViewController.h */,
+				B60B09C31CA675A900F86B5A /* DotViewController.m */,
+				B60B09B31CA674C300F86B5A /* Main.storyboard */,
+				B60B09B61CA674C300F86B5A /* Assets.xcassets */,
+				B60B09B81CA674C300F86B5A /* LaunchScreen.storyboard */,
+				B60B09BB1CA674C300F86B5A /* Info.plist */,
+				B60B09AA1CA674C300F86B5A /* Supporting Files */,
+				B60B09BF1CA674D500F86B5A /* VCView.h */,
+				B60B09C01CA674D500F86B5A /* VCView.m */,
+			);
+			path = "粒子效果";
+			sourceTree = "<group>";
+		};
+		B60B09AA1CA674C300F86B5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B60B09AB1CA674C300F86B5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,6 +224,23 @@
 			productReference = B60B098A1CA65E3A00F86B5A /* 倒影.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B60B09A71CA674C300F86B5A /* 粒子效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60B09BE1CA674C300F86B5A /* Build configuration list for PBXNativeTarget "粒子效果" */;
+			buildPhases = (
+				B60B09A41CA674C300F86B5A /* Sources */,
+				B60B09A51CA674C300F86B5A /* Frameworks */,
+				B60B09A61CA674C300F86B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "粒子效果";
+			productName = "粒子效果";
+			productReference = B60B09A81CA674C300F86B5A /* 粒子效果.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -183,6 +254,9 @@
 						CreatedOnToolsVersion = 7.2;
 					};
 					B60B09891CA65E3A00F86B5A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B60B09A71CA674C300F86B5A = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -202,6 +276,7 @@
 			targets = (
 				B60B096B1CA65E3100F86B5A /* 核心动画Demo */,
 				B60B09891CA65E3A00F86B5A /* 倒影 */,
+				B60B09A71CA674C300F86B5A /* 粒子效果 */,
 			);
 		};
 /* End PBXProject section */
@@ -227,6 +302,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B60B09A61CA674C300F86B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60B09BA1CA674C300F86B5A /* LaunchScreen.storyboard in Resources */,
+				B60B09B71CA674C300F86B5A /* Assets.xcassets in Resources */,
+				B60B09B51CA674C300F86B5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -248,6 +333,17 @@
 				B60B09911CA65E3A00F86B5A /* AppDelegate.m in Sources */,
 				B60B098E1CA65E3A00F86B5A /* main.m in Sources */,
 				B60B09A31CA65EA200F86B5A /* VCView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60B09A41CA674C300F86B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60B09C41CA675A900F86B5A /* DotViewController.m in Sources */,
+				B60B09AF1CA674C300F86B5A /* AppDelegate.m in Sources */,
+				B60B09AC1CA674C300F86B5A /* main.m in Sources */,
+				B60B09C11CA674D500F86B5A /* VCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +378,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B60B099B1CA65E3A00F86B5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B60B09B31CA674C300F86B5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60B09B41CA674C300F86B5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B60B09B81CA674C300F86B5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60B09B91CA674C300F86B5A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -413,6 +525,28 @@
 			};
 			name = Release;
 		};
+		B60B09BC1CA674C300F86B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "粒子效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wutouqishi.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B60B09BD1CA674C300F86B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "粒子效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wutouqishi.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -432,12 +566,22 @@
 				B60B09851CA65E3100F86B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B60B099E1CA65E3A00F86B5A /* Build configuration list for PBXNativeTarget "倒影" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B60B099F1CA65E3A00F86B5A /* Debug */,
 				B60B09A01CA65E3A00F86B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60B09BE1CA674C300F86B5A /* Build configuration list for PBXNativeTarget "粒子效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60B09BC1CA674C300F86B5A /* Debug */,
+				B60B09BD1CA674C300F86B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
