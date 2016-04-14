@@ -18,6 +18,7 @@
 
 + (Class)layerClass
 {
+    
     return [CAReplicatorLayer class];
 }
 
