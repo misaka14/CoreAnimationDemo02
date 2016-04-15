@@ -17,8 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+<<<<<<< HEAD
     // wutouqishi4
     // gengjie3
+=======
+    // gengjieFixBug
+>>>>>>> origin/gengjieFixBug01
     return YES;
 }
 
